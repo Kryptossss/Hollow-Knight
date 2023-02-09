@@ -1,0 +1,89 @@
+:root {
+    --color-1-: #303331;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+a:link {
+    color:#ffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffff;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 3.5em;
+}
+
+.logo-img {
+    height: 150px;
+    margin-top: 1em;
+}
+
+.botoes-header {
+    padding: 10px;
+    margin-bottom: 3.5em;
+    background-color: var(--color-1-);
+    border-radius: 50px;
+}
+
+.img-main {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 1000px;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-informations {
+    color: var(--color-1-);
+    font-size: 50px;
+}
+
+.sinopse {
+    color: #ffff;
+    text-align: center;
+}
+.sinopse2 {
+    color: #ffff;
+    text-align: center;
+}
+
+.botoes-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao {
+    background-color: #303331;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
